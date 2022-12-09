@@ -1,1 +1,12 @@
 Game: Dino run
+
+Wij willen als minigame de dino run gaan maken deze is al gemaakt door google. 
+Deze kan spelen door de stappen hier onder te volgen
+
+1. Zet je wifi uit
+2. Open google 
+3. Druk op spatie
+
+Controls: 
+Springen = spatie 
+Bukken = pijltje omlaag 
