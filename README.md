@@ -1,8 +1,8 @@
-# Game idee: Dino run
+# Game idee: Tetriz
 
 ![](Dino.jpeg)
 
-## Dino Run
+## Tetriz
 Je moet zover mogelijk komen door over obstakels te springen en ze te ontweiken.
 
 ## Controls: 
