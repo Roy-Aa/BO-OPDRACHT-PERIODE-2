@@ -1,25 +1,22 @@
-# Game idee: Tetriz
+# Game idee: Tetris
+![](Tetris.jpg)
 
-![](Dino.jpeg)
-
-## Tetriz
-Je moet zover mogelijk komen door over obstakels te springen en ze te ontweiken.
+## 💡Tetris
+Je moet proberen zo veel mogelijk horizontale lijnen te maken.
 
 ## Controls: 
-- Springen = pijltje omhoog / spatie 
-- Bukken = pijltje omlaag 
+- Pijltje omhoog = Object draaien
+- Pijtlje naar links = Draai het object naar links
+- Pijtlje naar rechts = Draai het object naar rechts
+- Spatie = Object snel plaatsen 
 
 ## Doel van het spel
-Je speelt als een dino die als doel heeft een zo hoog mogelijke score te krijgen.
-De score telt langsaam op maar je moet oppassen voor alle opstakels die op het pad liggen zoals cactussen.
-Winnen bestaat niet echt het doel is om de hoogste score te halen.
-Je kan af gaan door tegen een cactus of vogel aan te lopen.
+Je bestuurd een controller die probeerd zoveel mogelijk horizontale lijnen te maken.
+Maar er zijn ook gevaren je moet proberen niet tegen het dak aan te komen want dan ben je af en kan je het opnieuw proberen.
 
-### Game mechanics
-Er zitten ook een paar game mechanics in zoals
-Een Score hier kan je zien hoe hoog je score is 
-Een High Score hier kan je zien wat je hoogste score ooit was
+## Game mechanics
+- Play button
+- Verschillende controls
+- Draaibare objecten
 
-### Game controls
-- Springen = pijltje omhoog / spatie 
-- Bukken = pijltje omlaag 
+##
