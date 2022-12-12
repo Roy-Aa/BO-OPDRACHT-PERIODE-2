@@ -1,7 +1,7 @@
-# Game idee: Tetris
+# 💡 Game idee: Tetris
 ![](Tetris.jpg)
 
-## 💡Tetris
+## Tetris
 Je moet proberen zo veel mogelijk horizontale lijnen te maken.
 
 ## Controls: 
@@ -20,3 +20,4 @@ Maar er zijn ook gevaren je moet proberen niet tegen het dak aan te komen want d
 - Draaibare objecten
 
 ##
+Tetris
