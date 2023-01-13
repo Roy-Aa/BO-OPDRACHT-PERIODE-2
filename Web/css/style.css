@@ -13,7 +13,10 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     background: #272727;
-}
+    color: white;
+    margin: 0;
+  }
+
 
 h1{
     font-size: 60px;
@@ -24,22 +27,43 @@ h1{
 .blok1{
     width: 1000px;
     height: 350px;
-    background: white;
+    background: #535353;
     border: 2px solid black;
 }
 
 .blok1-2{
     width: 381px;
     height: 346px;
-    background: white;
-    border: 2px solid black;
+    background: #535353;
+    border-right: 2px solid black;
+    color: white;
+}
+
+section2{
+    display: flex;
 }
 
 .blok2{
-    width: 300px;
+    width: 500px;
     height: 500px;
-    background: white;
+    color: white;
+    background: #535353;
     margin-top: 35px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.blok2-1{
+    width: 500px;
+    height: 500px;
+    color: white;
+    background: #535353;
+    margin-top: 35px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
 }
 
 .text-openingstijden{
@@ -50,6 +74,18 @@ h1{
     width: 61.7%;
     padding: 0%;
     float: right;
+}
+
+.FotoNamco{
+    width: 100%;
+    padding: 0%;
+    border-bottom: 2px solid black;
+}
+
+.FotoXbox{
+    width: 100%;
+    padding: 0%;
+    border-bottom: 2px solid black;
 }
 
 article{
@@ -79,7 +115,7 @@ p{
 }
 
 figcaption{
-    font-size:80%;
+    font-size: 80%;
     font-style: italic;
 }
 
