@@ -145,20 +145,20 @@ function update() {
 }
 setInterval(update, 20);
 document.addEventListener("keydown", function(event) {
-  if (event.keyCode == 39) {
-    //right arrow
+  if (event.keyCode == 68) {
+    
     gameState.rectVelocity.x = gameState.playerSpeed;
   }
-  if (event.keyCode == 37) {
-    //left arrow
+  if (event.keyCode == 65) {
+    
     gameState.rectVelocity.x = -gameState.playerSpeed;
   }
-  if (event.keyCode == 40) {
-    //up arrow
+  if (event.keyCode == 83) {
+    
     gameState.rectVelocity.y = gameState.playerSpeed;
   }
-  if (event.keyCode == 38) {
-    //down arrow
+  if (event.keyCode == 87) {
+    
     gameState.rectVelocity.y = -gameState.playerSpeed;
   }
 });
