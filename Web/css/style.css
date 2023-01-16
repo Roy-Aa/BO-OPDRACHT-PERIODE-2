@@ -29,6 +29,7 @@ h1{
     height: 350px;
     background: #535353;
     border: 2px solid black;
+    
 }
 
 .blok1-2{
@@ -172,7 +173,7 @@ nav > ul > li > a{
 
 footer{
     background: #535353;
-    height: 250px;
+    height: 200px;
     color: white;
     display: flex;
     align-items: center;
@@ -186,25 +187,6 @@ p:last-of-type{
 footer > p{
     width:60vw;
     margin:0 auto;
-}
-
-.top{
-    width: 80px;
-    height: 80px;
-    background: white;
-    border: none;
-    font-size: 150%;
-    font-family: sans-serif;
-    border-radius: 5px;
-    color: white;
-    position: fixed;
-    bottom: 120px;
-    right: 120px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
 }
 
 @media screen and (max-width:1000px) {
