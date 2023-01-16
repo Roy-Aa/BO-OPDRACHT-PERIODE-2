@@ -7,7 +7,7 @@ let gameState = {
   playerSpeed: 0.5,
   enemyTimeout: 60,
   enemyTimeoutInit: 60,
-  enemySpeed: 1,
+  enemySpeed: 2,
   enemies: [],
   friends: [],
   friendAdded:false,
@@ -81,7 +81,7 @@ function update() {
     //console.log('timeout:'+gameState.enemyTimeoutInit);
     //console.log('speed:'+gameState.enemySpeed);
   }
-  ctx.fillStyle = "#FF0000";
+  ctx.fillStyle = "#00FF00";
   gameState.rectPosX += gameState.rectVelocity.x;
   gameState.rectPosY += gameState.rectVelocity.y;
   if (gameState.rectPosX > canvas.width - 10) {

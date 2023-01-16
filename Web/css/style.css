@@ -17,33 +17,6 @@ body{
     margin: 0;
   }
 
-canvas {
-    width: 100%;
-}
-
-.canvas-wrapper{
-    border-style: solid;
-    border-color: white;
-    width: 90%;
-    margin: 30px;
-    padding: 0px;
-}
-
-.center {
-    text-align: center;
-}
-
-.game {
-    position: relative;
-}
-
-#score{
-    position: absolute;
-    top:0px;
-    left:50px;
-}
-
-
 h1{
     font-size: 60px;
     padding: 20px;
@@ -104,6 +77,32 @@ section2{
 .h1-minigame{
     display: flex;
     justify-content: center;
+}
+
+canvas {
+    width: 100%;
+}
+
+.canvas-wrapper{
+    border-style: solid;
+    border-color: #535353;
+    width: 90%;
+    margin: 30px;
+    padding: 0px;
+}
+
+.center {
+    text-align: center;
+}
+
+.game {
+    position: relative;
+}
+
+#score{
+    position: absolute;
+    top:0px;
+    left:50px;
 }
 
 .text-openingstijden{
