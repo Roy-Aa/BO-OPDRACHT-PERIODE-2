@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
 
@@ -23,127 +24,7 @@ h1{
     border-bottom: 1px solid black;
 }
 
-.blok1{
-    width: 1000px;
-    height: 350px;
-    background: #535353;
-    border: 2px solid black;
-    
-}
-
-.blok1-2{
-    width: 381px;
-    height: 346px;
-    background: #535353;
-    border-right: 2px solid black;
-    color: white;
-}
-
-section2{
-    display: flex;
-}
-
-.blok2{
-    width: 500px;
-    height: 500px;
-    color: white;
-    background: #535353;
-    margin-top: 35px;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
-}
-
-.blok2-1{
-    width: 500px;
-    height: 500px;
-    color: white;
-    background: #535353;
-    margin-top: 35px;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
-}
-
-.blok3-minigame{
-    width: 1000px;
-    height: 630px;
-    background: #535353;
-    border: 2px solid black;
-    margin-top: 35px;
-}
-
-.h1-minigame{
-    display: flex;
-    justify-content: center;
-}
-
-.blokGeschiedenis{
-    width: 800px;
-    height: 550px;
-    background: rgb(31, 180, 155);
-    margin-top: 30px;
-    padding-top: 50px;
-    border-radius: 5px;
-    padding:50px;
-    margin-left: 95px;
-}
-
-.tekstGeschiedenis{
-    font-size: 25px;
-}
-
-.blokReviews{
-    width: 1000px;
-    height: 1200px;
-    text-align: center;
-    padding-top: 50px;
-    font-size: 50px;
-    font-weight: 500;
-}
-
-.blokreview1{
-    width: 800px;
-    height: 300px;
-    background: #474c7e;
-    margin-top: 30px;
-    margin-left: 95px;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    padding: 40px;
-    font-size: 25px;
-}
-
-.blokreview2{
-    width: 800px;
-    height: 300px;
-    background: rgb(33, 119, 33);
-    margin-top: 30px;
-    margin-left: 95px;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    padding: 40px;
-    font-size: 25px;
-}
-
-.blokreview3{
-    width: 800px;
-    height: 300px;
-    background: #8a1616;
-    margin-top: 30px;
-    margin-left: 95px;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    padding: 40px;
-    font-size: 25px;
-}
-
-.textReviews{
-    padding-bottom: 20px;
-    border-bottom: #7f6347 solid 3px;
-    border-radius: 10px;
-}
+/* Minigame */
 
 canvas {
     width: 100%;
@@ -170,6 +51,8 @@ canvas {
     top:0px;
     left:50px;
 }
+
+/* Blokken */
 
 .text-openingstijden{
     font-size: 17px;
@@ -236,7 +119,7 @@ video{
 header{
     height: 75px;
     width: 100%;
-    background: #1f1f1f;
+    background: #333;
     color: white;
 }
 
@@ -274,13 +157,130 @@ nav > ul > li > a{
     color: white;
 }
 
+/* Blokken */
 
-footer{
-    background: #1f1f1f;
-    height: 200px;
+.blok1{
+    width: 1000px;
+    height: 350px;
+    background: #535353;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.blok1-2{
+    width: 381px;
+    height: 346px;
+    background: #535353;
+    border-right: 2px solid black;
     color: white;
+    padding: 5px;
+}
+
+section2{
     display: flex;
-    align-items: center;
+}
+
+.blok2{
+    width: 500px;
+    height: 500px;
+    color: white;
+    background: #535353;
+    margin-top: 35px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.blok2-1{
+    width: 500px;
+    height: 500px;
+    color: white;
+    background: #535353;
+    margin-top: 35px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.blok3-minigame{
+    width: 1000px;
+    height: 630px;
+    background: #535353;
+    border: 2px solid black;
+    margin-top: 35px;
+}
+
+.h1-minigame{
+    display: flex;
+    justify-content: center;
+}
+
+.blokGeschiedenis{
+    width: 800px;
+    height: 550px;
+    background: rgb(99, 99, 99);
+    margin-top: 30px;
+    padding-top: 50px;
+    border-radius: 5px;
+    padding:50px;
+    margin-left: 95px;
+    color: white;
+}
+
+.tekstGeschiedenis{
+    font-size: 25px;
+}
+
+.blokReviews{
+    width: 1000px;
+    height: 1200px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.blokreview1{
+    width: 800px;
+    height: 300px;
+    background: #474c7e;
+    margin-top: 30px;
+    margin-left: 95px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 40px;
+    font-size: 25px;
+}
+
+.blokreview2{
+    width: 800px;
+    height: 300px;
+    background: rgb(33, 119, 33);
+    margin-top: 30px;
+    margin-left: 95px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 40px;
+    font-size: 25px;
+}
+
+.blokreview3{
+    width: 800px;
+    height: 300px;
+    background: #8a1616;
+    margin-top: 30px;
+    margin-left: 95px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 40px;
+    font-size: 25px;
+}
+
+.textReviews{
+    padding-bottom: 20px;
+    border-bottom: #7f6347 solid 3px;
+    border-radius: 10px;
 }
 
 .tekst-contact{
@@ -292,12 +292,7 @@ p:last-of-type{
     margin-bottom:0;
 }
 
-
-footer > p{
-    width:60vw;
-    margin:0 auto;
-}
-
+/* Media screen */
 
 @media screen and (max-width:1000px) {
     article{
@@ -326,4 +321,57 @@ footer > p{
     nav > ul{
         display: block;
     }
+}
+
+/* Footer */
+
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 70px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+
+.footer div{
+    text-align: center;
+}
+
+.col-2{
+    flex-grow: 2;
+}
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
 }
