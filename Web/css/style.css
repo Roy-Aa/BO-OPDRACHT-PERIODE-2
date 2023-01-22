@@ -375,3 +375,32 @@ form button{
     font-size: 15px;
     cursor: pointer;
 }
+
+.b1 {
+    border-radius: 3px;
+    background: #279444;
+    position:absolute;
+    top: 70%;
+    left: 43%;
+    width: 200px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.tickets{
+    width: 550px;
+    height: 350px;
+    background:#535353;
+    margin-top: 30px;
+    padding-top: 50px;
+    border-radius: 10px;
+    padding: 50px;
+    margin-left: 95px;
+    opacity:0.9;
+    font-size:25px;
+    position:absolute;
+    top:25%;
+    left:25%;
+    color:white;
+}
